@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calc {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.input {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+}
+.input input {
+    width: 60px;
+}
+.output span {
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 2px;
+    padding: 3px;
+    color: white;
+}
